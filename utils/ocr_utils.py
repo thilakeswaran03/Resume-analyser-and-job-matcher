@@ -4,9 +4,7 @@ import pdf2image
 
 # Function to extract text from image using OCR (Tesseract)
 def ocr_image(file_path: str) -> str:
-    """
-    Perform OCR on an image (PDF pages or image files).
-    """
+    
     try:
         # Check if the input is a PDF file
         if file_path.lower().endswith('.pdf'):
